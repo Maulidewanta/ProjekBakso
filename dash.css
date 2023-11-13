@@ -1,0 +1,117 @@
+* {
+    font-family: Georgia, serif;
+    text-decoration: none;
+    list-style: 0;
+}
+body {
+    background: linear-gradient(180deg,#90a955 0% , #31572c 100%);
+    min-height: 100vh;
+}
+.sidebar{
+    display: flex;
+    width: 20vw;
+    min-height: 100vh;
+}
+.bar {
+    text-align: center;
+ 
+    position: fixed;
+    background: #f1ffcf;
+    width: 20vw;
+    min-height: 100vh;
+    
+}
+.sidebar .bakso {
+   
+    font-size: 8pt;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 90%;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+}
+.menu {
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.26);
+    list-style: none;
+}
+.menu ul li {
+    display: block;
+    color : azure;
+    text-decoration: none;
+    font-size: 16pt;
+    margin: 35;
+}
+.topbar {
+    
+    position: fixed;
+    right: 10;
+    top: 0;
+    align-items: center;
+    width: 75vw;
+    height: 20vh;
+    background-color: transparent;
+}
+.topbar .top {
+    justify-content: center;
+    
+    text-align: center;
+    align-items: center;
+    width: 75vw;
+    height: 15vh;
+    background: #ecf39e;
+}
+.top .nav {
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.nav button{
+    margin-right: 50%;
+}
+.content {
+    position: absolute;
+    width: 75vw;
+    height: 70vh;
+    background-color: #90a955;
+    right: 10px;
+    top: 20vh;
+}
+.content .dash{
+    display: flex;
+}
+.content .dash1 {
+    margin-top: 3%;
+    padding-top: 1px;
+    height: 17vh;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 8pt;
+    width: 30vh;
+    background-color: aliceblue;
+}
+.content .transaksi {
+    margin-top: 3%;
+    padding-top: 1px;
+    height: 17vh;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 8pt;
+    width: 33vh;
+    background-color: aliceblue;
+}
+.content .stok {
+    margin-top: 3%;
+    padding-top: 1px;
+    height: 17vh;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 9pt;
+    width: 33vh;
+    background-color: aliceblue;
+}    
